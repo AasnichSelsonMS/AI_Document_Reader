@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+python-multipart
+pymupdf
+sentence-transformers
+chromadb
+langchain-text-splitters
+google-genai
+python-dotenv
+numpy
+pytest
+httpx

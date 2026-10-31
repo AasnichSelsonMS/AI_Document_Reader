@@ -1,0 +1,39 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# ChromaDB vector database
+chroma_db/
+
+# Uploaded PDF documents
+data/pdfs/*
+!data/pdfs/.gitkeep
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/
